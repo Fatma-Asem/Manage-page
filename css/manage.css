@@ -1,0 +1,940 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Be_Vietnam';
+    font-weight: 400px;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Be_Vietnam';
+    src: url('../fonts/Be_Vietnam/BeVietnam-Regular.ttf');
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Be_Vietnam';
+    src: url('../fonts/Be_Vietnam/BeVietnam-Medium.ttf');
+    font-weight: 500px;
+}
+
+@font-face {
+    font-family: 'Be_Vietnam';
+    src: url('../fonts/Be_Vietnam/BeVietnam-Bold.ttf');
+    font-weight: bold;
+}
+
+.hide-over {overflow: hidden;}
+
+.shown-over {overflow: auto;}
+
+/* start navbar */
+.navbar {
+    background-color: transparent;
+    border-radius: 0%;
+    margin-bottom: 0;
+    border: none;
+    padding: 55px 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #242e52;
+    text-transform: capitalize;
+    font-family: 'Be_Vietnam';
+    font-weight: 400px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #a9a9ab;
+    cursor: pointer;
+}
+
+.navbar .btn {
+    background-color: #f3613c;
+    border: none;
+    padding: 13px 30px 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 5px #f3613c;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .btn:hover {
+    cursor: pointer;
+}
+/* end navbar */
+
+/* start header section */
+.header-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.img-header {
+    background-image: url('../images/bg-tablet-pattern.png');
+    background-repeat: no-repeat;
+}
+
+.header-section h1 {
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+    color: #242e52;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.header-section h1::first-letter {
+    text-transform: capitalize;
+}
+
+.header-section p {
+    color: #a9a9ab;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.header-section p::first-letter {
+    text-transform: capitalize;
+}
+
+.header-section .btn {
+    background-color: #f3613c;
+    border: none;
+    padding: 13px 30px 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 5px #f3613c;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.header-section .btn:hover {
+    cursor: pointer;
+}
+
+.header-section img {
+    margin-top: -50px;
+}
+/* end header section */
+
+/* start about section */
+.about-section {
+    padding-top: 60px;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.about-section .h1 {
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+    color: #242e52;
+    font-size: 40px;
+}
+
+.about-section h2.first-heading {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.about-section .h1::first-letter {
+    text-transform: capitalize;
+}
+
+.about-section p:not(.full) {
+    color: #a9a9ab;
+    width: 290px;
+}
+
+.about-section p::first-letter {
+    text-transform: capitalize;
+}
+
+.about-section span {
+    float: right;
+    color: #fff;
+    width: 55px;
+    line-height: 2.7;
+    text-align: center;
+    background-color: #f3613c;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.about-section h4 {
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+    color: #242e52;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-section h4::first-letter {
+    text-transform: capitalize;
+}
+
+.about-section p.full {
+    color: #a9a9ab;
+    width: 370px;
+}
+
+.about-section .mrgn-bot {
+    margin-bottom: 30px;
+}
+
+.img-about {
+    background-image: url('../images/bg-tablet-pattern.png');
+    background-repeat: no-repeat;
+}
+
+.about-section h2.second-heading {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.about-section .btn {
+    background-color: #f3613c;
+    border: none;
+    padding: 13px 30px 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 5px #f3613c;
+    margin: 40px auto;
+    display: block;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.about-section .btn:hover {
+    cursor: pointer;
+}
+
+.about-section .person-img {
+    margin: auto;
+    width: 20%;
+    position: relative;
+    bottom: 30px;
+}
+
+.about-section h5 {
+    font-size: 14px;
+    margin-top: -8px;
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.about-section .bg-colored {
+    background-color: #FAFAFA;
+    height: 210px;
+    padding: 0 30px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.about-section .bg-colored:hover {
+    cursor: pointer;
+}
+
+.about-section p.full-again {
+    color: #a9a9ab;
+    width: auto;
+}
+
+.slick-slide {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.slick-prev, .slick-next {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+/* end about section */
+
+/* start simplify section */
+.simplify-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #f3613c;
+    background-image: url('../images/bg-simplify-section-desktop.png');
+    background-repeat: no-repeat;
+}
+
+.simplify-section .h1 {
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+}
+
+.simplify-section .h1::first-letter {
+    text-transform: capitalize;
+}
+
+.simplify-section .btn {
+    background-color: #fff;
+    border: none;
+    padding: 13px 30px 10px 30px;
+    border-radius: 30px;
+    color: #f3613c;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 5px #fff;
+    margin: 40px auto;
+    display: block;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.simplify-section .btn:hover {
+    cursor: pointer;
+}
+/* end simplify section */
+
+/* start footer section */
+.footer-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #242e52;
+}
+
+.footer-section span.logo {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Be_Vietnam';
+    font-weight: bold;
+}
+
+.footer-section .social {
+    display: block;
+    margin-top: 100px;
+}
+
+.footer-section img {
+    margin-right: 0;
+    display: inline-block;
+}
+
+.footer-section .fab {
+    color: #fff;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.footer-section .fab:hover {
+    color: #f3613c;
+    cursor: pointer;
+}
+
+.footer-section .list-footer li>a {
+    color: #fff;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.footer-section .list-footer li {
+    margin-top: 20px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: 'Be_Vietnam';
+}
+
+.footer-section .list-footer li>a:hover {
+    color: #f3613c;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-section input[type='email'] {
+    height: 45px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.footer-section .btn {
+    background-color: #f3613c;
+    border: none;
+    padding: 15px 15px 10px 15px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    width: 23%;
+    text-align: center;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.footer-section .btn:hover {
+    cursor: pointer;
+}
+
+.footer-section .right-copy {
+    color: #a9a9ab;
+    margin-top: 90px;
+    text-transform: capitalize;
+    font-weight: 400px;
+    font-family: 'Be_Vietnam';
+}
+
+.footer-section .validate {
+    color: #af0000;
+    font-family: 'Be_Vietnam';
+    font-weight: 400px;
+    margin-left: 5px;
+    display: none;
+}
+/* end footer section */
+
+
+
+
+
+
+
+/* mobile style */
+@media screen and (min-width: 375px) {
+
+    .nav {
+        margin: auto;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #242e52;
+    }
+
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+        width: 80%;
+        margin: auto;
+        z-index: 30;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .navbar .navbar-header .fas {
+        margin-top: -15px;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 25;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: 20;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .overlay-show {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        z-index: 20;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    .img-header {
+        background-position-x: -30%;
+        background-position-y: -105%;
+    }
+
+    .img-about {
+        background-position-y: -30%;
+        background-position-x: -70%;
+    }
+
+    .about-section .height-short {
+        height: 300px;
+    }
+
+    .simplify-section {
+        background-image: url(../images/bg-simplify-section-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .navbar-header {
+        width: auto; 
+    }
+
+    .header-section h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header-section p {
+        text-align: center;
+        width: 280px;
+        margin: 0 auto 45px auto;
+    }
+
+    .header-section .btn {
+        display: block;
+        margin: 50px auto;
+    }
+
+    .about-section h2.first-heading {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .about-section p:not(.full) {
+        text-align: center;
+        margin: 0 auto 60px auto;
+    }
+
+    .about-section .bg-colored {
+        width: 503px;
+    }
+
+    .simplify-section .h1 {
+        text-align: center;
+        padding: 0 65px;
+    }
+    
+    .simplify-section .btn {
+        float: none;
+    }
+
+    .footer-section input[type='email'] {
+        margin-bottom: 70px;
+    }
+
+    .footer-section .list-footer {
+        margin-left: 65px;
+    }
+
+    .footer-section .social {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-section img {
+        margin-left: 30%;
+    }
+
+    .footer-section .right-copy {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+   
+}
+
+/* small tablet style */
+@media screen and (min-width: 620px) {
+
+    .nav {
+        margin: auto;
+        text-align: center;
+        padding: 30px;
+    }
+
+    
+    .navbar-default .navbar-collapse {
+        border: none;
+        width: 80%;
+        margin: auto;
+        z-index: 30;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .img-header {
+        background-position-x: 115%;
+        background-position-y: 345%;
+    }
+
+    .img-about {
+        background-position-x: -75%;
+        background-position-y: 90%;
+    }
+
+    .simplify-section {
+        background-position-x: 315%;
+        background-position-y: 83%;
+    }
+
+    .navbar-header {
+        width: auto
+    }
+
+    .about-section .person-img {
+        width: 45%;
+    }
+
+    .slick-slide {
+        width: 281px;
+    }
+
+    .about-section .btn {
+    margin: 135px auto 40px auto;
+    }
+
+    .header-section h1 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .header-section p {
+        margin: 0 0 50px 0;
+        width: 300px;
+        text-align: left;
+    }
+
+    .header-section .btn {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .about-section h2.first-heading {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .about-section p:not(.full) {
+        text-align: left;
+        margin: 0 0 60px 0;
+    }
+
+    .about-section .bg-colored {
+        width: 220px;
+        height: 300px;
+    }
+
+    .simplify-section .h1 {
+        text-align: center;
+        padding: 0 65px;
+    }
+
+    .simplify-section .btn {
+        float: none;
+    }
+
+    .footer-section input[type='email'] {
+        margin-bottom: 70px;
+    }
+
+    .footer-section .list-footer {
+        margin-left: 65px;
+    }
+
+    .footer-section .social {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-section img {
+        margin-left: 38%;
+    }
+
+    .footer-section .right-copy {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+
+/* large tablet and laptop style */
+@media screen and (min-width: 960px) {
+
+    .nav {
+        width: 50%;
+        margin: 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+        width: auto;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        border-radius: 0%;
+    }
+
+    .img-header {
+        background-position-x: 115%;
+        background-position-y: 345%;
+    }
+
+    .img-about {
+        background-position-x: -75%;
+        background-position-y: 90%;
+    }
+
+    .simplify-section {
+        background-position-x: 315%;
+        background-position-y: 83%;
+    }
+
+    .navbar-header {
+        width: 30%
+    }
+
+    .header-section h1 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .header-section p {
+        margin: 0 0 50px 0;
+        width: 300px;
+        text-align: left;
+    }
+
+    .header-section .btn {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .about-section h2.first-heading {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .about-section p:not(.full) {
+        margin: 0;
+        text-align: left;
+    }
+    
+    .about-section .bg-colored {
+        width: auto;
+        height: 230px;
+    }
+
+    .slick-slide {
+        width: 522px !important;
+    }
+
+    .simplify-section .h1 {
+        padding: 0;
+        text-align: left;
+    }
+
+    .simplify-section .btn {
+        float: right;
+    }
+
+    .footer-section input[type='email'] {
+        margin-bottom: 0;
+    }
+
+    .footer-section .list-footer {
+        margin-left: 0;
+    }
+
+    .footer-section .social {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .footer-section img {
+        margin-left: 0;
+    }
+
+    .footer-section .right-copy {
+        float: right;
+        margin-top: 90px;
+        text-align: left;
+        display: block;
+    }
+
+    .about-section .person-img {
+        width: 20%;
+    }
+}
+
+
+
+/* desktop style*/
+@media screen and (min-width: 1200px) {
+    .nav {
+        width: 50%;
+        margin: 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: none;
+        width: auto;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        border-radius: 0%;
+    }
+
+    .img-header {
+        background-position-x: 115%;
+        background-position-y: 345%;
+    }
+   
+    .img-about {
+        background-position-x: -75%;
+        background-position-y: 90%;
+    }
+
+    .simplify-section {
+        background-position-x: 315%;
+        background-position-y: 83%;
+    }
+
+    .navbar-header {
+        width: 30%
+    }
+
+    .header-section h1 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .header-section p {
+        margin: 0 0 50px 0;
+        width: 300px;
+        text-align: left;
+    }
+
+    .header-section .btn {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .about-section h2.first-heading {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .about-section p:not(.full) {
+        margin: 0;
+        text-align: left;
+    }
+
+    .simplify-section .h1 {
+        padding: 0;
+        text-align: left;
+    }
+
+    .simplify-section .btn {
+        float: right;
+    }
+
+    .footer-section input[type='email'] {
+        margin-bottom: 0;
+    }
+
+    .footer-section .list-footer {
+        margin-left: 0;
+    }
+
+    .footer-section .social {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .footer-section img {
+        margin-left: 0;
+    }
+
+    .footer-section .right-copy {
+        float: right;
+        margin-top: 90px;
+        text-align: left;
+        display: block;
+    }
+
+    .about-section .bg-colored {
+        width: auto;
+        height: 230px;
+    }
+
+    .slick-slide {
+        width: 522px !important;
+    }
+
+    .about-section .person-img {
+        width: 20%;
+    }
+
+    .about-section .btn {
+        margin: 60px auto;
+    }
+}
